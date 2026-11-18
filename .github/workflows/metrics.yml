@@ -1,0 +1,27 @@
+name: Métricas
+
+on:
+  schedule:
+    - cron: "0 9 * * *" # todos los días, 06:00 en Chile
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/metrics.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # Usa METRICS_TOKEN si existe; si no, el token del propio workflow
+          token: ${{ secrets.METRICS_TOKEN || github.token }}
+          user: MatiasBecerra98
+          filename: metrics.svg
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: America/Santiago
+          plugin_languages: yes
