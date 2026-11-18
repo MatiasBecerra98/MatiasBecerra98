@@ -34,6 +34,3 @@
 <p>
   <a href="https://www.linkedin.com/in/matias-becerra-hinojosa" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge" /></a>
 </p>
-
-------------
-<p align="center">Las métricas se actualizan <b>todos los días</b> con <a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a>.</p>
