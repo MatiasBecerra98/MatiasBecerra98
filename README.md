@@ -30,9 +30,6 @@
   <img alt="Gemini" src="https://img.shields.io/badge/-Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" />
 </p>
 
-<h3>Mi actividad en GitHub</h3>
-<p><img alt="Métricas de GitHub" src="metrics.svg" /></p>
-
 <h3>Dónde encontrarme</h3>
 <p>
   <a href="https://www.linkedin.com/in/matias-becerra-hinojosa" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge" /></a>
